@@ -1,2 +1,24 @@
-# meet-and-coffee-in-vue
-Inspirado el el primer proyecto de fundamentos de HTML (Meet &amp; Coffee) es que como ejercicio empecé a desarrollar una daptación del mismo pero en VUE. Esto e sun trabajo en progreso así que el funcionamiento óptimo no está garantizado aun.
+# meetandcoffee-vue
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

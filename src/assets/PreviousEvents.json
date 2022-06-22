@@ -1,0 +1,17 @@
+[
+  {
+    "event_url": "",
+    "event_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Vegan_friendly_icon.svg/1024px-Vegan_friendly_icon.svg.png",
+    "event_title": "Simposio Vegan DB"
+  },
+  {
+    "event_url": "",
+    "event_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Anatomy-1751201_1280.png/1205px-Anatomy-1751201_1280.png",
+    "event_title": "Machine Learning 101"
+  },
+  {
+    "event_url": "",
+    "event_img": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Scrum_Agile_events.png",
+    "event_title": "Scrum (not Scream)"
+  }
+]
