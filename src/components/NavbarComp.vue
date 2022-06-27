@@ -1,31 +1,31 @@
 <template>
-  <b-navbar toggleable="lg" type="dark" variant="dark" class="align-middle">
+  <b-navbar toggleable="lg" type="dark" variant="dark" class="align-middle" sticky>
     <b-navbar-brand href="#">
       <img
         src="../assets/icon.svg"
-        class="favicon d-inline-block align-middle w-25"
+        class="favicon d-inline-block align-bottom w-25 mx-3" 
         alt="Kitten"
       />
-      <h2 class="d-inline-block align-middle ml-5">Meet & Coffee</h2>
+      <h2 class="d-inline-block align-middle">Meet & Coffee</h2>
     </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
-
-
       <!-- Right aligned nav items -->
-      <b-navbar-nav class="ml-auto">
-        <b-nav-item href="#ubicacion">Ubicación</b-nav-item>
-        <b-nav-item href="#">Disabled</b-nav-item>
+      <b-navbar-nav class="mx-auto my-2">
+        <b-nav-item href="#location">Ubicación</b-nav-item>
+        <b-nav-item href="#next_talk">Próxima Charla</b-nav-item>
+        <b-nav-item href="#previous_talk">Charlas Anteriores</b-nav-item>
+        <b-nav-item href="#contacts">Contacto</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
 </template>
 
 <style scoped>
-
-.favicon{
-  color: antiquewhite;
+.favicon {
+  color: white;
 }
+
 </style>

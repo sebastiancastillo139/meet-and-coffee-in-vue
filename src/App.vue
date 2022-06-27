@@ -1,24 +1,23 @@
 <template>
   <div id="app">
-    <NavbarComp/>
-    <router-view/>
+    <NavbarComp />
+    <router-view />
   </div>
 </template>
 
 <script>
-
-import NavbarComp from './components/NavbarComp.vue' 
+import NavbarComp from "./components/NavbarComp.vue";
 
 export default {
-  components:{
-    NavbarComp
-  }
-}
+  components: {
+    NavbarComp,
+  },
+};
 </script>
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "League Gothic", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

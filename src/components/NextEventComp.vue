@@ -1,7 +1,9 @@
 <template>
-  <section id="proxima_charla">
-    <b-card no-body class="overflow-hidden">
-      <b-row no-gutters>
+  <section>
+    <h2 class="fw-bolder pb-4 pt-0">PRÓXIMA CHARLA</h2>
+
+    <b-card no-body class="overflow-hidden mx-auto my-4 py-3 bg-warning">
+      <b-row no-gutters class="mx-auto">
         <b-col md="3">
           <b-card-img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Woman_with_vintage_bike.jpg/768px-Woman_with_vintage_bike.jpg"
@@ -10,9 +12,9 @@
           ></b-card-img>
         </b-col>
         <b-col md="9">
-          <b-card-body title="Proxima charla:">
-            <b-card-text>
-              <h3>Big Data para Noobs</h3>
+          <b-card-body>
+            <b-card-text class="align-middle px-4 my-4">
+              <h3 class="fw-bolder">Big Data para Noobs</h3>
               <h4>Rafaela Valdez</h4>
               <h5>
                 Data scientist, phD Theoriccal Physics, Carneige Mellon

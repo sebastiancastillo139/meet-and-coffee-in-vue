@@ -1,10 +1,10 @@
 <template>
   <div class="home">
-    <HeroSectionComp />
-    <LocationComp />
-    <NextEventComp class="col-12 align-center my-5" />
-    <PreviousEventsComp/>
-    <FooterComp/>
+    <HeroSectionComp/>
+    <LocationComp id="location" />
+    <NextEventComp id="next_talk" class="col-12 align-center my-5" />
+    <PreviousEventsComp id="previous_talk"/>
+    <FooterComp id="contacts"/>
   </div>
 </template>
 
