@@ -3,7 +3,7 @@
     <b-navbar-brand href="#">
       <img
         src="../assets/icon.svg"
-        class="favicon d-inline-block align-bottom w-25 mx-3" 
+        class="favicon d-inline-block align-bottom mx-3" 
         alt="Kitten"
       />
       <h2 class="d-inline-block align-middle">Meet & Coffee</h2>
@@ -26,6 +26,8 @@
 <style scoped>
 .favicon {
   color: white;
+  max-height: fit-content;
+  max-width: 3em;
 }
 
 </style>
