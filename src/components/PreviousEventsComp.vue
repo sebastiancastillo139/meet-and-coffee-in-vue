@@ -15,7 +15,7 @@
       <div>
         <b-card-text class="my-3">
           <h2>{{ events.event_title }}</h2>
-          <b-button href="#" variant="primary">Ver más información</b-button>
+          <EventsModalComp :eventModalId="events.event_title" :eventModalImg="events.event_img"/>
         </b-card-text>
       </div>
     </b-card>
@@ -24,11 +24,13 @@
 
 <script>
 import { mapGetters } from "vuex";
+import EventsModalComp from "./EventsModalComp.vue";
 
 export default {
-  computed: {
-    ...mapGetters(["getPreviousEvents"]),
-  },
+    computed: {
+        ...mapGetters(["getPreviousEvents"]),
+    },
+    components: { EventsModalComp }
 };
 </script>
 

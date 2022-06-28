@@ -13,7 +13,7 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <!-- Right aligned nav items -->
-      <b-navbar-nav class="mx-auto my-2">
+      <b-navbar-nav class="my-2 me-0 ms-auto">
         <b-nav-item href="#location">Ubicación</b-nav-item>
         <b-nav-item href="#next_talk">Próxima Charla</b-nav-item>
         <b-nav-item href="#previous_talk">Charlas Anteriores</b-nav-item>

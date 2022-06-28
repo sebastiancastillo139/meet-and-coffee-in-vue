@@ -6,7 +6,7 @@
       <b-row no-gutters class="mx-auto">
         <b-col md="3">
           <b-card-img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Woman_with_vintage_bike.jpg/768px-Woman_with_vintage_bike.jpg"
+            src="https://upload.wikimedia.org/wikipedia/commons/3/39/Maria_Teresa_Rafaela_of_Spain_by_Jacopo_Amigoni.jpg"
             alt="Image"
             class="rounded-0 img-speaker"
           ></b-card-img>
